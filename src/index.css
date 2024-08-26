@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+  --color-orange: #ee5a32;
+  --color-lightYellow: #fade7c;
+  --color-darkHeading: #190701;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-right {
+  -webkit-animation: slide-right-bounce 0.8s ease-out both;
+  animation: slide-right-bounce 0.8s ease-out both;
+}
+
+@-webkit-keyframes slide-right-bounce {
+  0% {
+    -webkit-transform: translateX(100%) scale(0.8); /* Start off to the right, slightly smaller */
+            transform: translateX(100%) scale(0.8);
+    opacity: 0; /* Start fully transparent */
+  }
+  60% {
+    -webkit-transform: translateX(-15%) scale(1.1); /* Overshoot to the left, slightly larger */
+            transform: translateX(-15%) scale(1.1);
+    opacity: 1; /* Fully visible */
+  }
+  75% {
+    -webkit-transform: translateX(5%) scale(0.95); /* Slight bounce back to the right */
+            transform: translateX(5%) scale(0.95);
+  }
+  90% {
+    -webkit-transform: translateX(-2%) scale(1.02); /* Small final overshoot to the left */
+            transform: translateX(-2%) scale(1.02);
+  }
+  100% {
+    -webkit-transform: translateX(0) scale(1); /* Settle in the final position */
+            transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slide-right-bounce {
+  0% {
+    -webkit-transform: translateX(100%) scale(0.8); /* Start off to the right, slightly smaller */
+            transform: translateX(100%) scale(0.8);
+    opacity: 0; /* Start fully transparent */
+  }
+  60% {
+    -webkit-transform: translateX(-15%) scale(1.1); /* Overshoot to the left, slightly larger */
+            transform: translateX(-15%) scale(1.1);
+    opacity: 1; /* Fully visible */
+  }
+  75% {
+    -webkit-transform: translateX(5%) scale(0.95); /* Slight bounce back to the right */
+            transform: translateX(5%) scale(0.95);
+  }
+  90% {
+    -webkit-transform: translateX(-2%) scale(1.02); /* Small final overshoot to the left */
+            transform: translateX(-2%) scale(1.02);
+  }
+  100% {
+    -webkit-transform: translateX(0) scale(1); /* Settle in the final position */
+            transform: translateX(0) scale(1);
+  }
+}
+
+

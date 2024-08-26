@@ -1,0 +1,55 @@
+.app__header {
+  width: 100%;
+  background-color: #190701;
+  z-index: 0;
+}
+
+.app__header-h1 {
+  font-family: 'Egg Roll';
+  color: var(--color-lightYellow);
+  letter-spacing: 0.90em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 110px;
+  text-align: center;
+  margin: 1rem auto; 
+}
+
+.app__headerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.app__headerWrapper_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.app__headerWrapper_info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.app__headerWrapper_img {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.app__headerWrapper_img img {
+  width: 100%;
+}

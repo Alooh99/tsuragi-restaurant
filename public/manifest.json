@@ -1,0 +1,25 @@
+{
+  "short_name": "Tsuragi",
+  "name": "Tsuragi Japanese Restaurant",
+  "icons": [
+    {
+      "src": "tsuragi.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "tsuragi.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "tsuragi.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fade7c",
+  "background_color": "#ffffff"
+}
