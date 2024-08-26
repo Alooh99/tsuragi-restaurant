@@ -1,6 +1,8 @@
+// Importing images from images.js
 import images from './images';
 
-const foods = [
+// Food data
+export const foods = [
   {
     title: 'Salmon Sushi',
     price: '$15',
@@ -36,7 +38,6 @@ const foods = [
     price: '$10',
     tags: 'Marinated chicken | Crispy batter | Lemon wedge',
   },
-  
   {
     title: 'Matcha Latte with Apple Pie',
     price: '$12',
@@ -44,7 +45,8 @@ const foods = [
   },
 ];
 
-const drinks = [
+// Drink data
+export const drinks = [
   {
     title: 'Hot Matcha Latte',
     price: '$6',
@@ -87,7 +89,8 @@ const drinks = [
   },
 ];
 
-const awards = [
+// Awards data
+export const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
@@ -110,4 +113,5 @@ const awards = [
   },
 ];
 
-export default { foods, drinks, awards };
+const data = { foods, drinks, awards };
+export default data;

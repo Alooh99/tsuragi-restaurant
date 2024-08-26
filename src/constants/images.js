@@ -16,19 +16,19 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import quote from '../assets/quote.png';
-import chopsticks from '../assets/chopsticks.svg'
-import five from '../assets/five.png'
-import six from '../assets/six.png'
-import eight from '../assets/eight.png'
-import bg1 from '../assets/bg1.jpg'
-import tsuragi from '../assets/tsuragi.png'
-import chef1 from '../assets/chef1.jpg'
-import sign1 from '../assets/sign1.png'
-import sword2 from '../assets/sword2.png'
-import resturant from '../assets/resturant.jpg'
-import footerBG from '../assets/footerBG.jpg'
+import chopsticks from '../assets/chopsticks.svg';
+import five from '../assets/five.png';
+import six from '../assets/six.png';
+import eight from '../assets/eight.png';
+import bg1 from '../assets/bg1.jpg';
+import tsuragi from '../assets/tsuragi.png';
+import chef1 from '../assets/chef1.jpg';
+import sign1 from '../assets/sign1.png';
+import sword2 from '../assets/sword2.png';
+import resturant from '../assets/resturant.jpg';
+import footerBG from '../assets/footerBG.jpg';
 
-export default {
+const images = {
   gallery01,
   gallery02,
   gallery03,
@@ -47,15 +47,17 @@ export default {
   award03,
   award05,
   quote,
+  chopsticks,
   five,
   six,
   eight,
   bg1,
-  chopsticks,
   tsuragi,
   chef1,
   sign1,
   sword2,
   resturant,
-  footerBG
+  footerBG,
 };
+
+export default images;
